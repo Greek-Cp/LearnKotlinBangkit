@@ -1,8 +1,12 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
 
-    // Try adding program arguments via Run/Debug casdsadsaonfiguration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+data class AnimalClas(var name: String, var age: Int)
+    fun main() {
+        val numbers = ListNumber<Long>()
+        val numbers2 = ListNumber<Int>()
+        val numbers3 = ListNumber<String>()
 
-}
+
+        println("Values: " + numbers)
+        println("Values: " + numbers)
+        println("Values: " + numbers)
+    }
